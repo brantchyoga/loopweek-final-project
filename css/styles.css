@@ -39,13 +39,28 @@ label {
 h2 {
   padding-bottom: 15%;
 }
-
-
-#space {
-  margin-top: 2%;
+#explain {
+  float: right;
+  width: 90%;
+  padding: 0px;
+  margin-top: -1%;
+  border: 1px solid blue;
+  border-radius: 4px;
+  background-color: white;
+  opacity: .75;
+  display: block;
+}
+#left {
+  margin-left: 3%;
+  text-align: left;
+}
+#line {
+  height: 2px;
+  border: 1px solid black;
+  width: 80%;
+  margin-left: 10%;
 }
 #pro {
-  width: 20%;
   float:left;
   margin: .5%;
   border: .5px solid #0c7caf;
@@ -62,11 +77,40 @@ h2 {
   color: #5d77a0;
   text-decoration: underline;
 }
- h3 {
+h3 {
   color: #5da094;
   text-align: center;
 }
 h4 {
   color: #58a372;
   text-align: center;
+}
+#output {
+  width: 20%;
+  padding-right: 0px;
+  float:left;
+}
+#imj {
+  float: right;
+  width: 70%;
+  padding-right: 2px;
+  display: none;
+}
+#imj img {
+  float: right;
+}
+.grow img {
+  height: 15%;
+  width: 15%;
+
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.grow img:hover {
+  width: 20%;
+  height: 20%;
 }

@@ -25,5 +25,6 @@ $(function(){
   newNumbers.forEach(function(numb){
       $("#output").append("<li>" + numb+ "</li>");
     });
+    $("#imj").show().delay(3000).fadeOut();
   });
 });

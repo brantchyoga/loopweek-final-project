@@ -8,6 +8,7 @@
     <title>PingPong</title>
   </head>
   <body id="bod">
+    <div class="grow pic">
     <img id="pro" src="css/images/profile.jpg">
     </div>
     <div class="container" id="cont1">
@@ -19,20 +20,32 @@
       <form id="numberPlay">
         <div class="form-group">
           <label for="endNumber">Count to:</label>
-          <input id="endNumber" min="1" class="form-control" type="number">
+          <input id="endNumber" min="1" class="form-control" type="number" placeholder="Enter a Number greater than 0 but beware of high numbers">
         </div>
-        <button type="submit" class="btn">Submit</button>
+        <button type="submit" class="btn pull-left">Submit</button>
       </form>
-      <div id="space" class="jumbotron">
+      <div id="explain">
+        <h3 >Entering a number and pushing submit will create a list counting up to your number</h3>
+        <h4 id="left">Conditions:</h4>
+        <ol>
+          <li>Any number divisible by 15 will be replaced with "pingpong"</li>
+          <li>Any number divisible by 5 will be replaced with "pong"</li>
+          <li>Any number divisible by 3 will be replaced with "ping"</li>
+        </ol>
+        <div id="line">
+        </div>
         <ul id="output">
         </ul>
+        <div id="imj">
+          <img src="css/images/chick.jpg">
+        </div>
       </div>
     </div>
     <div id="cont2">
       <div>
         <h2>About PingPong</h2>
         <h3>Created By:</h3>
-        <h4>Brant Porter</h4>
+        <h4><a href="https://github.com/brantchyoga">Brant Porter</a></h4>
         <h3>Epicodus Project</h3>
         <h4>Week 3</h4>
       </div>
