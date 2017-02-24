@@ -21,7 +21,9 @@ label {
   opacity: .75;
   background-color: white;
 }
-
+.btn {
+  margin-bottom: 2%;
+}
 #paddle {
   background-image: url("images/paddle6.png");
   background-size: contain;
@@ -98,6 +100,7 @@ h4 {
 }
 #imj img {
   float: right;
+  margin: .5%;
 }
 .grow img {
   height: 15%;
