@@ -12,8 +12,6 @@ var result = (function(number){
     total.push(i);
     }
   }
-    var total = total.join(" ");
-
 
     return total;
 
@@ -30,8 +28,9 @@ $(function(){
   console.log(endNumber);
   var newNumbers = result(endNumber)
   console.log(newNumbers);
-
-
-  $("#output").text("<li>"+newNumbers+"</li>");
+  $("#output").empty();
+  newNumbers.forEach(function(numb){
+      $("#output").append("<li>" + numb+ "</li>");
+    });
   });
 });
