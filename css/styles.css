@@ -9,11 +9,12 @@ label {
   color: white;
   border-radius: 3px;
 }
-#two {
+#cont1 {
   float: right;
   padding-left: 0px;
   margin-left: 0px;
   width: 79%;
+  display: block;
 
 }
 .jumbotron {
@@ -24,14 +25,16 @@ label {
 #paddle {
   background-image: url("images/paddle6.png");
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   text-align: center;
   text-decoration: underline;
   color: #0c7caf;
   margin-top: .5%;
-  padding: 5%;
+  padding: 6%;
   opacity: .75;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 h2 {
   padding-bottom: 15%;
@@ -47,4 +50,23 @@ h2 {
   margin: .5%;
   border: .5px solid #0c7caf;
   border-radius: 2px;
+}
+#cont2 {
+  float: left;
+  width: 20%;
+  margin: 0px;
+  display: block;
+}
+#cont2 h2 {
+  text-align: center;
+  color: #5d77a0;
+  text-decoration: underline;
+}
+ h3 {
+  color: #5da094;
+  text-align: center;
+}
+h4 {
+  color: #58a372;
+  text-align: center;
 }
