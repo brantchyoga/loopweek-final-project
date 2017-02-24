@@ -1,0 +1,50 @@
+#bod {
+  background-image: url("images/pingpong.jpg");
+  background-size: auto;
+  background-repeat: repeat;
+}
+label {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+}
+#two {
+  float: right;
+  padding-left: 0px;
+  margin-left: 0px;
+  width: 79%;
+
+}
+.jumbotron {
+  opacity: .75;
+  background-color: white;
+}
+
+#paddle {
+  background-image: url("images/paddle6.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  text-decoration: underline;
+  color: #0c7caf;
+  margin-top: .5%;
+  padding: 5%;
+  opacity: .75;
+}
+h2 {
+  padding-bottom: 15%;
+}
+
+
+#space {
+  margin-top: 2%;
+}
+#pro {
+  width: 20%;
+  float:left;
+  margin: .5%;
+  border: .5px solid #0c7caf;
+  border-radius: 2px;
+}

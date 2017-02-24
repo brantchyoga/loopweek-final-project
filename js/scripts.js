@@ -12,15 +12,8 @@ var result = (function(number){
     total.push(i);
     }
   }
-
-    return total;
-
+  return total;
 });
-
-
-
-
-
 $(function(){
   $("form#numberPlay").submit(function(event) {
   event.preventDefault();
